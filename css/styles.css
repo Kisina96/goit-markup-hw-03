@@ -116,6 +116,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
 }
 .orders {
   background-color: #4d5ae5;
@@ -126,6 +127,11 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--primary-white-color);
+  display: block;
+  min-width: 196px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .orders:hover {
   background-color: #404bbf;
