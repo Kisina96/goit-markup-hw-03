@@ -173,7 +173,7 @@ body {
   color: var(--primary-navy-color);
   text-align: center;
   text-transform: capitalize;
-  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .fours {
   background-color: #f4f4fd;
@@ -407,4 +407,12 @@ body {
 .section-box {
   gap: 24px;
   display: flex;
+}
+
+.section-three {
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  color: var(--primary-navy-color);
 }
