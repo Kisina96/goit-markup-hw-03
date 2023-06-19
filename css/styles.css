@@ -26,12 +26,6 @@ img {
   display: block;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  object-fit: cover;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -49,6 +43,7 @@ body {
   text-decoration: none;
 
   display: inline-block;
+  margin-left: 156px;
   margin-right: 76px;
 }
 .link {
@@ -69,9 +64,8 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
-  flex-direction: row;
   gap: 40px;
-  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  align-items: center;
 }
 .onelinks:hover {
   color: var(--primary-ocean-color);
@@ -87,6 +81,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-slate-color);
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 .contacts:hover {
   color: var(--primary-ocean-color);
@@ -116,7 +113,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  max-width: 496px;
+  text-align: center;
+  margin-bottom: 48px;
 }
 .orders {
   background-color: #4d5ae5;
@@ -212,6 +210,8 @@ body {
 /* Подвал */
 .basement {
   background-color: var(--primary-navy-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .increase {
   font-family: "Roboto", sans-serif;
@@ -220,6 +220,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-cloud-color);
+  width: 264px;
+  height: 72px;
 }
 /* Вторая страница */
 .pressbutton {
@@ -354,11 +356,6 @@ body {
 }
 
 .main-title {
-  width: 1440px;
-  height: 600px;
-  padding-left: 188px;
-  padding-top: 188px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main-block {
@@ -399,4 +396,10 @@ body {
 }
 .header-div {
   display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: space-between;
+}
+.logo-footer {
+  margin-bottom: 16px;
 }
