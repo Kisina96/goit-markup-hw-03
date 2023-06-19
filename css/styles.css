@@ -177,9 +177,12 @@ body {
 }
 .fours {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .focus {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 .team {
   font-family: "Roboto", sans-serif;
@@ -190,6 +193,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--primary-navy-color);
+  margin-bottom: 72px;
 }
 .people {
   font-family: "Roboto", sans-serif;
@@ -200,6 +204,8 @@ body {
   text-align: center;
   color: var(--primary-navy-color);
   background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .profession {
   font-family: "Roboto", sans-serif;
@@ -210,6 +216,7 @@ body {
   text-align: center;
   color: var(--primary-slate-color);
   background-color: #ffffff;
+  text-align: center;
 }
 
 /* Подвал */
@@ -342,7 +349,7 @@ body {
   color: var(--primary-slate-color);
 }
 
-.addr {
+.add {
   font-style: normal;
 }
 .blue {
@@ -415,4 +422,19 @@ body {
 
 .visually-hidden {
   color: var(--primary-navy-color);
+}
+.div-three {
+  display: flex;
+  gap: 24px;
+}
+
+.div-three-li {
+  width: calc((100%-2 * 24px) / 3);
+}
+.fours-ul {
+  display: flex;
+  gap: 24px;
+}
+.people-div {
+  padding: 32px 16px;
 }
