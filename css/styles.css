@@ -362,10 +362,6 @@ body {
 .main-title {
 }
 
-.main-block {
-  width: 1128px;
-}
-
 .main-what {
 }
 
@@ -405,7 +401,7 @@ body {
 .logo-footer {
   margin-bottom: 16px;
 }
-.main-block {
+.main-section-two {
   padding: 120px 0;
 }
 .section-box {
