@@ -61,8 +61,7 @@ body {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -362,21 +361,9 @@ body {
 
 .header-nav {
   display: flex;
-
   align-items: center;
 }
 
-.main-title {
-}
-
-.main-what {
-}
-
-.main-fours {
-}
-
-.footer-increase {
-}
 .header-link {
   gap: 40px;
 }
@@ -390,20 +377,19 @@ body {
   padding-right: 15px;
 }
 .header-ul {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   gap: 40px;
 }
 .header-ct {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   gap: 40px;
 }
 .header-div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 72px;
 }
 .logo-footer {
   margin-bottom: 16px;
@@ -421,8 +407,18 @@ body {
 }
 
 .visually-hidden {
-  color: var(--primary-navy-color);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 .div-three {
   display: flex;
   gap: 24px;
