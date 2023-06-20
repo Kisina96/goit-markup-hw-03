@@ -61,7 +61,7 @@ body {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-
+  padding: 24px 0;
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -111,10 +111,11 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #ffffff;
-  text-align: center;
+
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .orders {
   background-color: #4d5ae5;
