@@ -8,6 +8,7 @@
 
   --primary-text: "Roboto", sans-serif;
   --secondary-text: "Raleway", sans-serif;
+  --border-color-button: #e7e9fc;
 }
 
 h1,
@@ -116,6 +117,8 @@ body {
 
   max-width: 496px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .orders {
   background-color: #4d5ae5;
@@ -132,6 +135,8 @@ body {
   border: none;
   border-radius: 4px;
   min-width: 169px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .orders:hover {
   background-color: #404bbf;
@@ -245,14 +250,20 @@ body {
   color: var(--primary-iris-color);
   background-color: var(--primary-cloud-color);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--border-color-button);
+
+  border-radius: 4px;
 }
 .pressbutton:hover {
   color: var(--primary-white-color);
   background-color: var(--primary-ocean-color);
+  border: 1px solid transparent;
 }
 .pressbutton:focus {
   color: var(--primary-white-color);
   background-color: var(--primary-ocean-color);
+  border: 1px solid transparent;
 }
 
 .web {
@@ -339,6 +350,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-navy-color);
+  margin-bottom: 8px;
 }
 .tab {
   font-family: "Roboto", sans-serif;
@@ -443,4 +455,18 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+.portfolio-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-im {
+}
+.portfolio-text {
+  padding: 32px 16px;
+  border: 1px solid var(--border-color-button);
+  border-top: none;
 }
